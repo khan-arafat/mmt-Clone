@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mmt-clone/static/css/main.93102529.css",
+    "main.js": "/mmt-clone/static/js/main.1c491340.js",
+    "static/js/787.b3398742.chunk.js": "/mmt-clone/static/js/787.b3398742.chunk.js",
+    "index.html": "/mmt-clone/index.html",
+    "main.93102529.css.map": "/mmt-clone/static/css/main.93102529.css.map",
+    "main.1c491340.js.map": "/mmt-clone/static/js/main.1c491340.js.map",
+    "787.b3398742.chunk.js.map": "/mmt-clone/static/js/787.b3398742.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93102529.css",
+    "static/js/main.1c491340.js"
+  ]
+}
