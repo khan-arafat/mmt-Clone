@@ -1,0 +1,138 @@
+.bookings {
+width: 98vw;
+height: 400px;
+background-color: white;
+border: none;
+border-radius: 10px;
+position: absolute;
+left: 1vw;
+bottom: 50px;
+}
+.bookings label {
+font-weight: 300;
+}
+
+.travelType {
+width: 300px;
+display: flex;
+justify-content: space-evenly;
+}
+.cityCard {
+width: 260px;
+height: 100%;
+border: 1px solid #bbb;
+padding: 5px;
+}
+.cityCard p{
+line-height: 3;
+font-size: 14px;
+}
+.cityCard:hover {
+background-color: rgb(206, 252, 252);
+}
+.booking-flex {
+display: flex;
+justify-content: center;
+align-items: center;
+width: fit-content;
+border-radius: 5px;
+margin:  -10px auto;
+border: 1px solid #bbb;
+overflow: hidden;
+}
+.arrDep {
+width: 150px;
+height: 150px;
+border: 1px solid #bbb;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 5px;
+flex: 1;
+gap: 10px;
+}
+.arrDep:hover {
+background-color: rgb(206, 252, 252);
+}
+.arrDep-flex {
+display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 20px;
+}
+.arrDep-flex>p{
+line-height: 1;
+font-size: 14px;
+}
+.arrDep-flex> h3{
+line-height: 0.8;
+}
+
+.fare {
+display: flex;
+width: 700px;
+margin-left: 20px;
+margin-top: 10px;
+gap: 2px;
+}
+.fare-type {
+    margin-top: -20px;
+}
+h3 {
+    font-weight: bold;
+}
+.fare-flex {
+display: flex;
+align-items: center;
+font-size: 14px;
+padding-top: 5px;
+border: 1px solid #dce0e5;
+background-color: #dce0e5;
+width: 150px;
+height: 50px;
+font-size: 16px;
+}
+.searchFor {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(90deg, skyblue, blue);
+    position: relative;
+    left: 40%;
+    top: 10%;
+}
+.ticket-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    gap: 10px;
+    margin: 0 auto;
+}
+.tkt-box {
+    width: 500px;
+    border: 2px solid black;
+    text-align: center;
+}
+.tkt-box h4{
+    font-weight: 600;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 15px 25px;
+}
+td {
+    margin-right: 50px;
+    padding-left: 30px;
+}
+.book-btn {
+    width: 80px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: right;
+}

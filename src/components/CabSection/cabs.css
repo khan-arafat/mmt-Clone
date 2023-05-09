@@ -1,0 +1,119 @@
+.bookings {
+width: 98vw;
+height: 400px;
+background-color: white;
+border: none;
+border-radius: 10px;
+position: absolute;
+left: 1vw;
+bottom: 50px;
+}
+.bookings label {
+font-weight: 300;
+}
+
+.travel {
+width: 800px;
+display: flex;
+justify-content: space-between;
+}
+
+.booking-flex {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+width: 98%;
+height: 150px;
+border-radius: 5px;
+margin: 10px auto;
+border: 1px solid #bbb;
+/* overflow: hidden; */
+}
+.date-flex {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+.inner-flex1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 260px;
+    height: 100%;
+    border: 1px solid #bbb;
+}
+
+.arrDep {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #bbb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    flex: 1;
+}
+.arrDep-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.arrDep-flex>p{
+    line-height: 0.1;
+    font-size: 14px;
+}
+.arrDep-flex> h3{
+    line-height: 1;
+}
+h5 {
+    line-height: 1;
+}
+.pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.searchCabs {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(90deg, skyblue, blue);
+    position: relative;
+    left: 45%;
+    top: 100px;
+}
+.ticket-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    gap: 10px;
+    margin: 0 auto;
+}
+.tkt-box {
+    width: 500px;
+    border: 2px solid black;
+    text-align: center;
+}
+.tkt-box h4{
+    font-weight: 600;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 15px 25px;
+}
+td {
+    margin-right: 50px;
+    padding-left: 30px;
+}
+.book-btn {
+    width: 80px;
+    height: 30px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    float: right;
+}

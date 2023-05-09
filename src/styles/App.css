@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+.top-bg {
+  background: linear-gradient( black, #035096	 );
+  height: 600px;
+  width: 100vw;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -40px;
+  cursor: pointer;
+}
+.logo-text {
+  line-height: 0;
+  font-weight: 700;
+}
+.special-offers {
+  display: inline-block;
+}
+.disc{
+  margin-top: -10px;
+  margin-right: 10px;
+  position: relative;
+  right: 35px;
+}
+.disc-rotation {
+  font-size: 40px;
+  position: absolute;
+  transition: 4s ease-out;
+  transform: rotate(720deg);
+}
+.disc-perc {
+  font-size: 16px;
+  position: relative;
+  color: white;
+  left: 12px;
+  top: 10px;
+}
+.para-offer {
+    color: white;
+    line-height: 1;
+    font-weight: 300;
+}
+.para-line {
+  color: #bbb;
+  font-size: 10px;
+  line-height: 1;
+}
+.inner-logo {
+  width: 30px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: red;
+  color: white;
+  font-family: 'Satisfy', cursive;
+  font-size: 20px;
+  text-align: center;
+}
+
+.innerElements {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-right: 20px;
+}
+.loginDiv {
+  margin-top: -20px;
+  margin-left: -10px;
+}
+.btn-log {
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(90deg, skyblue, blue);
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+ 
+}
+.btn-logout {
+  width :200px;
+  height: 50px;
+  background: linear-gradient(30deg, #1273de, #FAD0C3, rgb(246, 88, 246));
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  align-items: center;
+  border: none;
+}
+.dot {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 20px;
+  color: skyblue;
+  font-family: 'Satisfy', cursive;
+  font-size: 18px;
+}
+.percent {
+  color: white;
+  position: relative;
+  right: 20px;
+}
+.services {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80vw;
+  height: 80px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  margin: 10px auto;
+  position: relative;
+  z-index: 2;
+  box-shadow: 4px 4px 4px #bbb;
+}
+
+.citySearch {
+  background-color: whitesmoke;
+  width: 250px;
+  border-radius: 5px;
+  height: 100px;
+  margin-bottom: 5px;
+}
+.searchCity {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  line-height: 1;
+  margin-top: 5px;
+  margin-bottom: 35px;
+}
+.city-city {
+  position: relative;
+  z-index: 2;
+  overflow-y: scroll;
+  height: 400px;
+  width: 270px;
+  left: 50px;
+  top: 80px;
+}
+.city-city2 {
+  position: relative;
+  z-index: 2;
+  overflow-y: scroll;
+  height: 400px;
+  width: 270px;
+  left: 310px;
+  top: 80px;
+}
+.header1 {
+  background: linear-gradient(90deg, black, blue);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  margin-bottom: 20px;
+
+}

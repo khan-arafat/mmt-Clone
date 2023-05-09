@@ -1,0 +1,36 @@
+.activity-book {
+    width: 98vw;
+    height: 400px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 1vw;
+    bottom: 80px;
+}
+.activity-card {
+    display: block;
+    margin: 150px auto;
+    width: 80vw;
+    height: fit-content;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #bbb;
+}
+
+.activity-flex {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.activity-box {
+    background: url('https://cdni.iconscout.com/illustration/premium/thumb/hiking-3428199-2902534.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none; 
+}

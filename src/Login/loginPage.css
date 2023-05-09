@@ -1,0 +1,85 @@
+.logo-box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo-text2 {
+    line-height: 0;
+    font-weight: 700;
+}
+.inner-logo2 {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    text-align: center;
+  }
+.login-body {
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+.login-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80vw;
+    height: 80vh;
+    background-color: transparent;
+    gap: 0;
+    margin:0 auto;
+    padding-top: 50px;
+}
+.logUser {
+    width: 250px;
+    height: 40px;
+}
+img {
+    width: 350px;
+    height: 500px;
+    margin-top: 5px;
+}
+.login-box {
+    width: 300px;
+    height: 500px;
+    padding: 0 50px;
+    background-color: white;
+}
+.login-content {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#logSubmit {
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    background-color: crimson;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.signup {
+    background-image: url('https://wallpaperaccess.com/full/1431622.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.signup-box {
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 500px;
+    height: 100vh;
+    margin: 0 auto;
+}
+.signup-inside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

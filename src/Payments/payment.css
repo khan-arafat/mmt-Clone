@@ -1,0 +1,48 @@
+.pay-flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.payCol {
+    width: 400px;
+    height: 300px;
+    border: 1px solid hsl(0, 24%, 56%);
+    padding-left: 10px;
+}
+.payLeft-flex {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: -20px;
+    padding-right: 10px;
+    margin-top: 50px;
+}
+.amt-div {
+    padding-bottom: 10px;
+}
+form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 10px;
+}
+h5{
+    line-height: 0.2;
+}
+.pay-btn {
+    background-color: blue;
+    border: none;
+    width: 100px;
+    height: 25px;
+    color: white;
+}
+.warning {
+    color: red;
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+hr {
+    margin-top: -10px;
+}

@@ -1,0 +1,71 @@
+.bookings {
+width: 98vw;
+height: 400px;
+background-color: white;
+border: none;
+border-radius: 10px;
+position: absolute;
+left: 1vw;
+bottom: 50px;
+}
+.bookings label {
+font-weight: 300;
+}
+
+
+.booking-flex {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+width: 98%;
+height: 150px;
+border-radius: 5px;
+margin: 10px auto;
+border: 1px solid #bbb;
+/* overflow: hidden; */
+}
+
+.inner-flex1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 280px;
+    height: 100%;
+    border: 1px solid #bbb;
+}
+.inner-flex2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 195px;
+    height: 100%;
+    border: 1px solid #bbb;
+}
+.inner-flex1 h2{
+    line-height: 0.2;
+}
+.searchHoliday {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(90deg, skyblue, blue);
+    position: relative;
+    left: 45%;
+    top: 15%
+}
+.holiday-nav {
+    display: flex;
+    gap:30px;
+}
+.img-nav {
+    display: flex;
+    align-items: center;
+}
+.img-nav img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}

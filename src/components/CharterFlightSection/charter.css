@@ -1,0 +1,36 @@
+.charter-book {
+    width: 98vw;
+    height: 400px;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    position: absolute;
+    left: 1vw;
+    bottom: 80px;
+}
+.charter-card {
+    display: block;
+    margin: 150px auto 0 auto;
+    width: 80vw;
+    height: fit-content;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px #bbb;
+}
+
+.charter-flex {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+.image-box {
+    background: url('https://flyscootprod.blob.core.windows.net/prod-src/images/default-source/covid-19-information-on-homepage/fleet-updates.jpg?sfvrsn=9d735521_2');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 100px;
+    overflow: hidden;
+    border-radius: 5px;
+    border: none; 
+}
